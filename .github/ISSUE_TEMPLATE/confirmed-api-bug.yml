@@ -1,0 +1,50 @@
+name: Confirmed API Bug
+description: Reproducible Heffl API behavior that appears incorrect.
+title: "[bug] "
+labels:
+  - bug
+  - api
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use only synthetic or sanitized data. Do not include API keys, customer records, raw webhook payloads, documents, IDs, payment data, or private messages.
+  - type: input
+    id: endpoint
+    attributes:
+      label: Endpoint
+      description: Method and path, for example GET /api/v2/tasks
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include sanitized request shape and response status/body shape. Do not include secrets.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - blocks production workflow
+        - blocks test workflow
+        - causes confusing status or assignment behavior
+        - documentation mismatch only
+        - other
+    validations:
+      required: true
+

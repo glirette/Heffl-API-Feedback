@@ -1,0 +1,30 @@
+name: Documentation Question
+description: Heffl API documentation gap or clarification request.
+title: "[docs] "
+labels:
+  - documentation
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this constructive and source-oriented. Link public docs when possible.
+  - type: input
+    id: docs_url
+    attributes:
+      label: Documentation URL
+      description: Public Heffl docs page or section, if available.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or ambiguity
+    validations:
+      required: true
+  - type: textarea
+    id: current_understanding
+    attributes:
+      label: Current working understanding
+      description: Describe what our integration currently assumes.
+    validations:
+      required: true
+
