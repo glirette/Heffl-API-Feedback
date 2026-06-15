@@ -4,17 +4,17 @@
 
 ### v2 Task Assignment
 
-Synthetic task assignment to the Terrianne operator user worked with v2 task creation and `assigneeIds`.
+Synthetic task assignment to the operator user worked with v2 task creation and `assigneeIds`.
 
 Evidence retained internally:
 
-- Synthetic task: `NG Synthetic v2 Terrianne Assignment proof`
-- Purpose: verify `assigneeIds` assignment support for Terrianne operator task routing.
+- Synthetic task: `NG Synthetic v2 Operator Assignment proof`
+- Purpose: verify `assigneeIds` assignment support for operator task routing.
 - Customer data: none.
 
 ### v2 Operator Queue Task Assignment
 
-Synthetic operator-queue task creation worked with the intended owner set to the Terrianne Heffl user.
+Synthetic operator-queue task creation worked with the intended owner set to the operator Heffl user.
 
 Evidence retained internally:
 
