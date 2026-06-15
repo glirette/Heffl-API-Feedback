@@ -30,5 +30,4 @@ Do not include:
 
 ## Tone
 
-Assume good faith. Issues should be clear enough for a Heffl engineer or support person to reproduce without needing private GoodWare context.
-
+Assume good faith. This is partner-mode, not a complaint bucket. Issues should be clear enough for a Heffl engineer or support person to reproduce without needing private GoodWare context.
